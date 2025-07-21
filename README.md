@@ -1,69 +1,58 @@
 # Travelling-app---Easter-edition
-Παπει Travellers
-🧳 Κονσολική εφαρμογή διαχείρισης ταξιδιών με αποθήκευση δεδομένων, διαδρομές, αξιοθέατα και εστιατόρια.
+Travelling-app — Easter Edition
+PAPEI Travellers – A console-based travel management application with data storage, itineraries, sightseeing, and restaurant planning.
 
+About
+PAPEI Travellers is a console application that allows users to organize their trips by creating an account and recording the following:
 
-🧭 About
+Accommodation details during the trip
 
+Sightseeing locations they wish to visit
 
-Η εφαρμογή Παπει Travellers είναι μια κονσολική εφαρμογή στην οποία ο χρήστης μπορεί να οργανώσει το ταξίδι του, δημιουργώντας λογαριασμό και καταγράφοντας:
+Restaurants and recommended routes
 
-Την κατοικία του κατά το ταξίδι
+Travel budget and expenses
 
-Τα αξιοθέατα που θέλει να επισκεφθεί
+The application stores user data using serialization, allowing users to resume their planning from where they left off in previous sessions.
 
-Εστιατόρια και προτεινόμενες διαδρομές
+Getting Started
+Prerequisites
+Java (version 11 or higher)
 
-Προϋπολογισμό εξόδων
+A Java IDE such as IntelliJ IDEA or Eclipse
 
-Η εφαρμογή εξασφαλίζει την αποθήκευση των δεδομένων μέσω σειριοποίησης (serialization), έτσι ώστε οι χρήστες να μπορούν να συνεχίσουν από εκεί που σταμάτησαν.
+File system access for reading and writing .ser files
 
+Build and Run
+Clone or open the project in your preferred IDE
 
-⚙️ Getting Started
-✅ Prerequisites
+Compile and run the Main class
 
-Java (>= 11)
+On the first run, a data file is created automatically if it does not already exist
 
-IDE όπως IntelliJ IDEA ή Eclipse
+Use the menu options in the console to begin managing your trip
 
-Συστήματα αρχείων για ανάγνωση/εγγραφή .ser αρχείων
+Features
+Sign Up / Log In: User authentication with password saving
 
-🛠️ Build and Run
-Κλωνοποίησε ή άνοιξε το project στον editor σου
+Accommodation: Set travel dates and calculate cost of stay
 
-Κάνε compile και εκτέλεση της Main κλάσης
+Sightseeing: Add, view, review, and calculate total cost of visits
 
-Κατά την πρώτη εκτέλεση δημιουργείται αυτόματα αρχείο δεδομένων εάν δεν υπάρχει
+Restaurants: Search for, add, and remove restaurant entries
 
-Χρησιμοποίησε τις επιλογές του μενού για να ξεκινήσεις τη διαχείριση του ταξιδιού σου
+Routes: Create custom routes with multiple stops
 
+Anti-Bot Verification: Basic numeric challenge to prevent automated inputs
 
-✨ Features
+Serialization: Automatic saving and loading of user data
 
-Sign Up / Log In με αποθήκευση κωδικού
-
-Κατοικία: Ορισμός ημερομηνιών διαμονής, υπολογισμός κόστους
-
-Αξιοθέατα: Προσθήκη, προβολή, κριτικές και υπολογισμός κόστους
-
-Εστιατόρια: Αναζήτηση, προσθήκη και διαγραφή
-
-Διαδρομές: Δημιουργία διαδρομών με στάσεις
-
-Anti-Bot σύστημα με επαλήθευση αριθμού
-
-Serialization: Αυτόματη αποθήκευση και ανάκτηση δεδομένων χρηστών
-
-
-🛠️ Built With
-
+Built With
 Java SE 11
 
 Object Serialization
 
-Scanner / File I/O
+Scanner and File I/O
 
-
-📄 License
-
-Το έργο αυτό δημιουργήθηκε για εκπαιδευτικούς σκοπούς. Δεν διατίθεται με άδεια για εμπορική χρήση.
+License
+This project was developed for educational purposes only. It is not licensed for commercial use.
