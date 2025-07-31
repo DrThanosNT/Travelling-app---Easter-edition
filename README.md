@@ -1,6 +1,20 @@
-# Travelling-app---Easter-edition
-Travelling-app — Easter Edition
+## Travelling-app — Easter Edition
 PAPEI Travellers – A console-based travel management application with data storage, itineraries, sightseeing, and restaurant planning.
+
+Table of Contents
+About
+
+Getting Started
+
+Prerequisites
+
+Build and Run
+
+Features
+
+Built With
+
+License
 
 About
 PAPEI Travellers is a console application that allows users to organize their trips by creating an account and recording the following:
@@ -13,7 +27,7 @@ Restaurants and recommended routes
 
 Travel budget and expenses
 
-The application stores user data using serialization, allowing users to resume their planning from where they left off in previous sessions.
+The application uses serialization to store user data, allowing users to resume planning from where they left off in previous sessions.
 
 Getting Started
 Prerequisites
@@ -28,9 +42,9 @@ Clone or open the project in your preferred IDE
 
 Compile and run the Main class
 
-On the first run, a data file is created automatically if it does not already exist
+On first run, a data file is created automatically if it doesn't already exist
 
-Use the menu options in the console to begin managing your trip
+Use the console menu to begin managing your trip
 
 Features
 Sign Up / Log In: User authentication with password saving
@@ -55,4 +69,5 @@ Object Serialization
 Scanner and File I/O
 
 License
-This project was developed for educational purposes only. It is not licensed for commercial use.
+This project was developed for educational purposes only.
+It is not licensed for commercial use.
